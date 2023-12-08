@@ -3,7 +3,7 @@ const mongoose= require('mongoose')
 const dbName = 'ReactTest'; 
 
 mongoose.connect(
-    `mongodb+srv://admin:admin@cluster0.som12nw.mongodb.net/${dbName}?retryWrites=true&w=majority`,
+    ` HERE YOUR CONNECTION`,
     { useNewUrlParser: true, useUnifiedTopology: true }
   );
   
